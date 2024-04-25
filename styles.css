@@ -453,3 +453,40 @@ footer a {
   /* Add more styles here for other sections as needed */
 }
 
+/* CSS for Phone Responsive Design */
+@media only screen and (max-width: 600px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .ig-icon {
+        margin: 0 10px;
+    }
+
+    .customer-satisfaction, .popular-searches, .office-address, .online-shopping, .myntra-app, .history, .shop-at-myntra {
+        padding: 10px;
+    }
+
+    .content-heading {
+        font-size: 1.2em;
+    }
+
+    .para-content, .other-info-para-content {
+        font-size: 0.9em;
+    }
+
+    .copyright-container {
+        font-size: 0.8em;
+    }
+
+    .office-address-content {
+        font-size: 0.9em;
+    }
+}
+
