@@ -431,3 +431,25 @@ footer a {
   font-weight: bold;
   font-size: 14px;
 }
+
+/* Add this media query at the end of your CSS file */
+
+@media only screen and (max-width: 600px) {
+  .left ul li {
+    padding: 0px 10px; /* Adjust padding for navigation items */
+    font-size: 12px; /* Decrease font size for navigation items */
+  }
+
+  .left img {
+    width: 40px; /* Decrease logo size */
+    height: 30px;
+    padding: 0px 20px; /* Adjust logo padding */
+  }
+
+  .container img {
+    width: 100vw; /* Make full width for container images */
+  }
+
+  /* Add more styles here for other sections as needed */
+}
+
